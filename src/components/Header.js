@@ -8,7 +8,7 @@ const { isDarkTheme, toggleTheme } = useTheme();
 
   return (
     <>
-    <div className={`p-7 ${isDarkTheme? "bg-dark": "bg-light"} min-h-screen`}>
+    <div>
     <div className='flex justify-between items-center'>
         <div className='flex flex-col'>
         <h1>Social Media Dashboard</h1>
