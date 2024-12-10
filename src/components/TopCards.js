@@ -10,7 +10,7 @@ const TopCards = () => {
   return (
     <>
     <section className='text-white'>
-        <article className='text-white dark-cards' >
+        <article className='text-white dark-cards top-cards'>
             <div>
                 <img src={FacebookIcon} alt='facebook logo'></img>
                 <p>@nathanf</p>
@@ -19,7 +19,7 @@ const TopCards = () => {
             <p>Followers</p>
             <div><img src={UpIcon} alt={UpIcon}></img><span>12</span><span>Today</span></div>
         </article>
-        <article className='text-white dark-cards'>
+        <article className='text-white dark-cards top-cards'>
         <div>
                 <img src={TwitterIcon} alt='twitter logo'></img>
                 <p>@nathanf</p>
@@ -28,7 +28,7 @@ const TopCards = () => {
             <p>Followers</p>
             <div><img src={UpIcon} alt={UpIcon}></img><span>99</span><span>Today</span></div>
         </article>
-        <article className='text-white dark-cards'>
+        <article className='text-white dark-cards top-cards'>
         <div>
                 <img src={InstagramIcon} alt='instagram logo'></img>
                 <p>@realnathanf</p>
@@ -37,7 +37,7 @@ const TopCards = () => {
             <p>Followers</p>
             <div><img src={UpIcon} alt={UpIcon}></img><span>1099</span><span>Today</span></div>
         </article>
-        <article className='text-white dark-cards'>
+        <article className='text-white dark-cards top-cards'>
         <div>
                 <img src={YoutubeIcon} alt='Youtube logo'></img>
                 <p>Nathan F.</p>
