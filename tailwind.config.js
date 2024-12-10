@@ -21,7 +21,7 @@ module.exports = {
         'White': 'hsl(0, 0%, 100%)',
         'VeryPaleBlue' /*(Top BG Pattern)*/: 'hsl(225, 100%, 98%)',
         'LightGrayishBlue' /*(Card BG)*/: 'hsl(227, 47%, 96%)',
-        'DarKGrayishBlue '/*(Text)*/: 'hsl(228, 12%, 44%)',
+        'DarKGrayishBlue'/*(Text)*/: 'hsl(228, 12%, 44%)',
         'darkGradient': 'linear-gradient(to bottom, hsl(232, 19%, 15%) 20%, hsl(230, 17%, 14%) 20% 100%)'
       },
     },

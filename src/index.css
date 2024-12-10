@@ -13,6 +13,25 @@
   .toggle-gradient {
     @apply text-[linear-gradient(to_right,_hsl(210,_78%,_56%),_hsl(146,_68%,_55%))];
   }
+  .top-cards {
+    @apply rounded py-7 text-center flex flex-col gap-5;
+  }
+  .dark-cards {
+    @apply bg-DarkDesaturatedBlue;
+  }
+  .light-cards {
+    @apply bg-LightGrayishBlue;
+  }
+  .socials {
+    @apply flex justify-center items-center gap-2 text-sm;
+  }
+  .up {
+    @apply flex justify-center items-center gap-1 text-xs text-Lime-Green font-bold;
+  }
+  .down {
+    @apply flex justify-center items-center gap-1 text-xs text-BrightRed font-bold;
+  } 
+
 }
 
 

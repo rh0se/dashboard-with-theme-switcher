@@ -5,7 +5,7 @@ import TopCards from '../components/TopCards';
 const MainPage = () => {
     const { isDarkTheme } = useTheme();
   return (
-    <div className={`p-7 ${isDarkTheme? "bg-dark": "bg-light"} min-h-screen`}>  
+    <div className={`pt-7 md:px-36 ${isDarkTheme? "bg-dark": "bg-light"} min-h-screen`}>  
     <Header />
     <TopCards />
     </div>
