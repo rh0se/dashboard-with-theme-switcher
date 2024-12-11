@@ -11,7 +11,7 @@ const TopCards = () => {
     const { isDarkTheme } = useTheme();  
   return (
     <>
-    <section className={`${isDarkTheme? "text-white": "text-DarkGrayishBlue"} font-bold text-sm grid grid-cols-1 md:grid-cols-4 gap-6`}>
+    <section className={`${isDarkTheme? "text-white": "text-DarkGrayishBlue"} font-bold text-sm grid grid-cols-1 lg:grid-cols-4 gap-6 md:grid-cols-2`}>
         <article className={` ${isDarkTheme ? "dark-cards" : "light-cards"} top-cards border-t-Facebook-color border-t-4`}>
             <div className='socials'>
                 <img src={FacebookIcon} alt='facebook logo'></img>
