@@ -11,7 +11,7 @@ const { isDarkTheme, toggleTheme } = useTheme();
     <div>
     <div className='flex md:flex-row gap-4 flex-col md:justify-between md:items-center'>
         <div className='flex flex-col'>
-        <h1 className={`${isDarkTheme? "text-white": "text-DarkGrayishBlue"} text-2xl font-extrabold` } >Social Media Dashboard</h1>
+        <h1 className={`${isDarkTheme? "text-white": "text-VeryDarkBlue"} text-2xl font-extrabold` } >Social Media Dashboard</h1>
         <p className={`${isDarkTheme ? "text-DesaturatedBlue" : "text-DarKGrayishBlue"} text-xs font-bold`}>Total Followers: 23,004</p>
         </div>
         <div className='flex md:p-0 pt-2 items-center justify-between md:border-0 border-t-2 border-DesaturatedBlue' >

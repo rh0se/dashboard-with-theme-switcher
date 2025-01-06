@@ -30,7 +30,29 @@
   }
   .down {
     @apply flex justify-center items-center gap-1 text-xs text-BrightRed font-bold;
+  }
+  .bottom-cards {
+    @apply rounded-md p-5 font-bold flex flex-col gap-7;
   } 
+  .bottom-cards div {
+    @apply flex flex-row items-center justify-between;
+  }
+  
+  .bottom-cards div:last-child {
+    @apply text-xs;
+  }
+  .bottom-cards div:last-child div img {
+    @apply w-2 h-1;
+  }
+  .bottom-cards div:last-child h1 {
+    @apply text-4xl;
+  }
+  .dark-b-cards div:first-child {
+    @apply text-xs text-DesaturatedBlue;
+  }
+  .light-b-cards div:first-child {
+    @apply text-xs text-DarKGrayishBlue;
+  }
 
 }
 
